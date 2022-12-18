@@ -9,7 +9,7 @@ async def start_cmd(bot, msg):
     btn = InlineKeyboardMarkup([[
         InlineKeyboardButton("🤖 SOURCE CODE", url="https://github.com/MrMKN/Simple-Rename-Bot")
         ],[
-        InlineKeyboardButton("🖥️ How To Deploy", url="https://youtu.be/oc847WvOUaI")
+        InlineKeyboardButton("🖥️ How To Deploy", url="https://t.me/Tamilan224")
     ]])
     if msg.from_user.id != ADMIN:
         await msg.reply_text(text=txt, reply_markup=btn, disable_web_page_preview = True)
@@ -19,9 +19,9 @@ async def start_cmd(bot, msg):
 
 @Client.on_callback_query(filters.regex("start"))
 async def start(bot, msg, cb=True):   
-    txt=f"hai {msg.from_user.mention} i am simple rename bot with personal usage.\nthis bot is made by <b><a href=https://t.me/+BMnH-D8PgTYxZTk1>Anime_Warriors_Tamil</a></b>"                                     
+    txt=f"hai {msg.from_user.mention} i am simple rename bot with personal usage.\nthis bot is made by <b><a href=https://t.me/Tamilan224>Horror_Movies_Tamil</a></b>"                                     
     button= [[
-        InlineKeyboardButton("🤖 Bot Updates", url="https://t.me/mkn_bots_updates")
+        InlineKeyboardButton("👻 Horror Updates", url="https://t.me/Tamilan224")
         ],[
         InlineKeyboardButton("ℹ️ Help", callback_data="help"),
         InlineKeyboardButton("📡 About", callback_data="about") 
